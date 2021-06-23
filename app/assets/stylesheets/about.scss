@@ -1,6 +1,23 @@
-section.about-us {
+section.about-page {
+  h1 {
+    position: absolute;
+    top: 22rem;
+    left: 74rem;
+    color: white;
+    background-color: rgba($color: #000000, $alpha: 0.85);
+    padding: 3rem;
+  }
+
   img {
-    display: abosolute;
-    width: 100%;
+    height: 100%;
+    width: 100vw;
+  }
+
+  div {
+    margin-top: 5rem;
+
+    p {
+      font-size: 18px;
+    }
   }
 }
