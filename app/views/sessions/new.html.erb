@@ -1,8 +1,7 @@
 <section>
   <h1>Login</h1>
 
-  <form>
-    <%= form_tag url: '/login' do %>
+    <%= form_tag '/login' do %>
         <div class="form-group">
           <%= label_tag(:email, "Email:") %>
           <%= text_field_tag :email, "", class: "form-control"%>
@@ -15,7 +14,6 @@
 
       <%= submit_tag "Submit", class: "btn btn-info" %>
     <% end %>
-  </form>
 
   <div class='well margin-top-3'>
     <h3>Don't have an account ? <%= link_to 'Signup', '/signup' %> ! </h3>
